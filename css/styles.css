@@ -1,0 +1,60 @@
+.navigate{
+	font-size: 20px;
+	font-family: fantasy;
+	color: purple;
+	text-align: center;
+}
+img{
+	max-width: 70%;
+	max-height: 60%;
+}
+p{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: purple;
+}
+body{
+	background-color: green;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+}
+.royce{
+	width: 30%;
+	max-height:100%;
+}
+.rolls{
+	max-height: 100%;
+	width: 40%;
+
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+
+@keyframes example {
+	0% {background-color:green;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	75% {background-color: red;}
+	100% {background-color: green;}
+}
+
+
+div {
+  width: 500px;
+  height: 250px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+.brij{
+	width: 30%;
+	height: 10%;
+}
